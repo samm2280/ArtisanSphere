@@ -4,11 +4,13 @@ import Dashboard from '../actualcomp/Dashboard';
 // <Footer /> {/* Use the Footer component here */}
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Navbar from '../actualcomp/Navbar';
 
 function Home() {
   return (
     <div>
       <Dashboard />
+      <Navbar />
      
     </div>
   );
